@@ -23,7 +23,7 @@
 
 When working with small targets, simple log outputs are often the only feedback available.
 With [CodeOrb](https://github.com/fractal-programming/code-orb#codeorb-start) on the PC and the
-[SystemCore](https://github.com/fractal-programming/SystemCore#processing-start) on the target,
+[SystemCore](https://github.com/fractal-programming/SystemCore#system-core-start) on the target,
 we have two additional channels: a task viewer and a command interface.
 The task viewer provides a detailed insight into the entire system, whereas the command interface gives full control over the microcontroller.
 
