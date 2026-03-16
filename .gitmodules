@@ -3,7 +3,7 @@
 	url = https://github.com/mirror/tclap.git
 [submodule "deps/SystemCore"]
 	path = deps/SystemCore
-	url = https://github.com/NoOrientationProgramming/SystemCore.git
+	url = https://github.com/fractal-programming/SystemCore.git
 [submodule "deps/LibNaegCommon"]
 	path = deps/LibNaegCommon
-	url = https://github.com/NoOrientationProgramming/LibNaegCommon.git
+	url = https://github.com/fractal-programming/LibNaegCommon.git
