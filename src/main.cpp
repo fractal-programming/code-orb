@@ -190,8 +190,6 @@ int main(int argc, char *argv[])
 	if (res > 0 && res < 6)
 		env.verbosity = res;
 
-	levelLogSet(env.verbosity);
-
 	env.ctrlManual = argCtrlManual.getValue() ? 1 : 0;
 #if defined(__unix__)
 	env.coreDump = argCoreDump.getValue();
@@ -227,6 +225,7 @@ int main(int argc, char *argv[])
 		return 0;
 	}
 #endif
+	levelLogSet(env.verbosity);
 
 #if defined(_WIN32)
 	// https://learn.microsoft.com/en-us/windows/console/setconsolectrlhandler
