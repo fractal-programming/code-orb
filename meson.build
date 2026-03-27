@@ -21,6 +21,7 @@ srcs = [
 	'deps/LibNaegCommon/LibFilesys.cpp',
 	'deps/LibNaegCommon/LibDspc.cpp',
 	'deps/LibNaegCommon/KeyUser.cpp',
+	'deps/LibNaegCommon/TelnetFiltering.cpp',
 	'deps/LibNaegCommon/ThreadPooling.cpp',
 	'deps/LibNaegCommon/ListIdx.cpp',
 	'deps/LibNaegCommon/widgets-term/Widget.cpp',
@@ -32,7 +33,6 @@ srcs = [
 	'src/LibSingleWireScheduling.cpp',
 	'src/RemoteCommanding.cpp',
 	'src/LibUart.cpp',
-	'src/TelnetFiltering.cpp',
 	'src/InfoGathering.cpp',
 ]
 
