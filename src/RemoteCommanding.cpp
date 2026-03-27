@@ -239,6 +239,10 @@ Success RemoteCommanding::process()
 		break;
 	case StMain:
 
+		success = mpFilt->success();
+		if (success != Pending)
+			return Positive;
+
 		if (stateOnlineChanged())
 		{
 			promptSend();
