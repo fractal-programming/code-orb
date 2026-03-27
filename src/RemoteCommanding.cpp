@@ -241,7 +241,7 @@ Success RemoteCommanding::process()
 
 		success = mpFilt->success();
 		if (success != Pending)
-			return Positive;
+			return success;
 
 		if (stateOnlineChanged())
 		{
