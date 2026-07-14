@@ -49,6 +49,7 @@ args = [
 	'-DCONFIG_CMD_SIZE_HISTORY=20',
 	'-DCONFIG_CMD_SIZE_BUFFER_OUT=2048',
 	'-DCONFIG_PROC_INFO_BUFFER_SIZE=1024',
+	'-DCONFIG_PROC_IPV6_ENABLED=1',
 ]
 
 # https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html
