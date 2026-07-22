@@ -770,6 +770,7 @@ void RemoteCommanding::promptSend(bool cursor, bool preNewLine, bool postNewLine
 		msg += dColorGrey;
 		msg += "<target offline>";
 		msg += dColorClear;
+		msg += "\033[K";
 	}
 	else
 	{
